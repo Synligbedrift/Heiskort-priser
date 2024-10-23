@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Finn heiskortpriser for de største skianleggene i Norge, inkludert Trysil, Hafjell, og Hemsedal.">
+  <meta name="keywords" content="heiskort, heiskort priser, ski pass Norge, Trysil, Hafjell, Hemsedal, skianlegg">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Heiskortpriser 2024</title>
+  <style>
+    body { font-family: Arial, sans-serif; }
+    table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+    th, td { padding: 10px; border: 1px solid #ddd; text-align: left; }
+    th { background-color: #f4f4f4; }
+  </style>
+</head>
+<body>
+
+  <h1>Heiskortpriser for de største skianleggene i Norge (2024)</h1>
+  
+  <table>
+    <thead>
+      <tr>
+        <th>Skianlegg</th>
+        <th>Dagskort (NOK)</th>
+        <th>To-dagers kort (NOK)</th>
+        <th>Ukespass (NOK)</th>
+      </tr>
+    </thead>
+    <tbody id="ski-prices">
+      <!-- Prices will be populated here by JavaScript -->
+    </tbody>
+  </table>
+
+  <script>
+    const skiResorts = [
+      { name: "Trysil", dayPass: 570, twoDayPass: 1140, weekPass: 2710 },
+      { name: "Hafjell", dayPass: 570, twoDayPass: 1120, weekPass: 2750 },
+      { name: "Hemsedal", dayPass: 795, twoDayPass: 1590, weekPass: 3750 },
+      { name: "Geilo", dayPass: 625, twoDayPass: 1230, weekPass: 2890 },
+      { name: "Norefjell", dayPass: 620, twoDayPass: 1150, weekPass: 2820 },
+      { name: "Kvitfjell", dayPass: 570, twoDayPass: 1095, weekPass: 2565 },
+      { name: "Hovden", dayPass: 680, twoDayPass: 1360, weekPass: 3020 },
+      { name: "Skeikampen", dayPass: 470, twoDayPass: 890, weekPass: 2500 },
+      { name: "Voss", dayPass: 510, twoDayPass: 1020, weekPass: 2340 },
+      { name: "Oppdal", dayPass: 540, twoDayPass: 1080, weekPass: 2850 }
+    ];
+
+    const tableBody = document.getElementById('ski-prices');
+    skiResorts.forEach(resort => {
+      const row = `<tr>
+                    <td>${resort.name}</td>
+                    <td>${resort.dayPass}</td>
+                    <td>${resort.twoDayPass}</td>
+                    <td>${resort.weekPass}</td>
+                  </tr>`;
+      tableBody.innerHTML += row;
+    });
+  </script>
+
+</body>
+</html>
