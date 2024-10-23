@@ -1,20 +1,3 @@
-<!DOCTYPE html>
-<html lang="no">
-<head>
-  <meta charset="UTF-8">
-  <meta name="description" content="Finn heiskortpriser for de største skianleggene i Norge, inkludert Trysil, Hafjell, og Hemsedal.">
-  <meta name="keywords" content="heiskort, heiskort priser, ski pass Norge, Trysil, Hafjell, Hemsedal, skianlegg">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Heiskortpriser 2024</title>
-  <style>
-    body { font-family: Arial, sans-serif; }
-    table { width: 100%; border-collapse: collapse; margin: 20px 0; }
-    th, td { padding: 10px; border: 1px solid #ddd; text-align: left; }
-    th { background-color: #f4f4f4; }
-  </style>
-</head>
-<body>
-
   <h1>Heiskortpriser for de største skianleggene i Norge (2024)</h1>
   
   <table>
