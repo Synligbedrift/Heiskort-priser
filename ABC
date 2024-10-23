@@ -13,7 +13,7 @@
       padding: 0; 
       background: url('https://www.example.com/snow-background.jpg') no-repeat center center fixed;
       background-size: cover; 
-      color: #333; 
+      color: #000; 
     }
     header { 
       background-color: rgba(0, 0, 0, 0.7); 
